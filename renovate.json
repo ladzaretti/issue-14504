@@ -2,5 +2,5 @@
   "extends": [
     "config:base"
   ],
-  "stabilityDays": 10
+  "stabilityDays": 20
 }
