@@ -3,6 +3,14 @@
     "config:base"
   ],
   "stabilityDays": 20,
-  "automerge": true,
+  "packageRules": [
+        {
+            "matchUpdateTypes": [
+                "minor",
+                "patch"
+            ],
+            "automerge": true
+        }
+    ],
   "automergeType": "pr"
 }
